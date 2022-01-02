@@ -73,18 +73,18 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝕳𝖊𝖑𝖑𝖔` {} [🥰](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg) `𝕸𝖞 𝕹𝖆𝖒𝖊 𝕴𝖘` *Shasa*
+`𝕳𝖊𝖑𝖑𝖔` {} [🥰](https://telegra.ph/file/ea68644f59bdaf57fd61e.jpg) `𝕸𝖞 𝕹𝖆𝖒𝖊 𝕴𝖘` *MAMBA*
 `𝕴'𝖒 𝕳𝖊𝖗𝖊 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖎𝖓 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖎𝖙` *📚Commands* 𝖔𝖗 /help  
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝙰𝙳𝙳 𝚂𝙷𝙰𝚂𝙰 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/MissShasa_bot?startgroup=true"
+            text="🌹 𝙰𝙳𝙳 𝚂𝙷𝙰𝚂𝙰 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/MAMBA?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="💞𝕬𝖇𝖔𝖚𝖙💞", callback_data="shasa_"),
+        InlineKeyboardButton(text="💞𝕬𝖇𝖔𝖚𝖙💞", callback_data="MAMBA_"),
         InlineKeyboardButton(text="💖𝕾𝖚𝖕𝖕𝖔𝖗𝖙💖", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -94,11 +94,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`𝕳𝖎.. 𝕴'𝖒` [𝕾𝖍𝖆𝖘𝖆❤️](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg)
+`𝕳𝖎.. 𝕴'𝖒` [𝓜𝓐𝓜𝓑𝓐❤️](https://telegra.ph/file/ea68644f59bdaf57fd61e.jpg)
 `𝕴'𝖒 𝖆 𝕳𝖊𝖗𝖔𝖎𝖓𝖊 𝕱𝖔𝖗 𝕱𝖚𝖓 𝖆𝖓𝖉 𝖍𝖊𝖑𝖕 𝖆𝖉𝖒𝖎𝖓𝖘 𝖙𝖔 𝖒𝖆𝖓𝖆𝖌𝖊 𝖙𝖍𝖊𝖎𝖗 𝖌𝖗𝖔𝖚𝖕𝖘! 𝕳𝖆𝖛𝖊 𝖆 𝖑𝖔𝖔𝖐 𝖆𝖙 𝖙𝖍𝖊 𝖋𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 𝖋𝖔𝖗 𝖆𝖓 𝖎𝖉𝖊𝖆 𝖔𝖋 𝖘𝖔𝖒𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖙𝖍𝖎𝖓𝖌𝖘 𝕴 𝖈𝖆𝖓 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖜𝖎𝖙𝖍.`"""
 
 
-shasa_IMG = "https://telegra.ph/file/c4b69de63b6525efad6dd.jpg"
+shasa_IMG = "https://telegra.ph/file/ea68644f59bdaf57fd61e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @SimpleBoy787 \
@@ -354,7 +354,7 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text="""ℹ️ 𝕴'𝖒 *𝕾𝖍𝖆𝖘𝖆*, 𝖆 𝖕𝖔𝖜𝖊𝖗𝖋𝖚𝖑 𝖌𝖗𝖔𝖚𝖕 𝖒𝖆𝖓𝖆𝖌𝖊𝖒𝖊𝖓𝖙 𝖇𝖔𝖙 𝖇𝖚𝖎𝖑𝖙 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕 𝖊𝖆𝖘𝖎𝖑𝖞.
+            text="""ℹ️ 𝕴'𝖒 *𝓜𝓐𝓜𝓑𝓐*, 𝖆 𝖕𝖔𝖜𝖊𝖗𝖋𝖚𝖑 𝖌𝖗𝖔𝖚𝖕 𝖒𝖆𝖓𝖆𝖌𝖊𝖒𝖊𝖓𝖙 𝖇𝖔𝖙 𝖇𝖚𝖎𝖑𝖙 𝖙𝖔 𝖍𝖊𝖑𝖕 𝖞𝖔𝖚 𝖒𝖆𝖓𝖆𝖌𝖊 𝖞𝖔𝖚𝖗 𝖌𝖗𝖔𝖚𝖕 𝖊𝖆𝖘𝖎𝖑𝖞.
              ❍ 𝕴 𝖈𝖆𝖓 𝖗𝖊𝖘𝖙𝖗𝖎𝖈𝖙 𝖚𝖘𝖊𝖗𝖘.
              ❍ 𝕴 𝖈𝖆𝖓 𝖌𝖗𝖊𝖊𝖙 𝖚𝖘𝖊𝖗𝖘 𝖜𝖎𝖙𝖍 𝖈𝖚𝖘𝖙𝖔𝖒𝖎𝖟𝖆𝖇𝖑𝖊 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖒𝖊𝖘𝖘𝖆𝖌𝖊𝖘 𝖆𝖓𝖉 𝖊𝖛𝖊𝖓 𝖘𝖊𝖙 𝖆 𝖌𝖗𝖔𝖚𝖕'𝖘 𝖗𝖚𝖑𝖊𝖘.
              ❍ 𝕴 𝖍𝖆𝖛𝖊 𝖆𝖓 𝖆𝖉𝖛𝖆𝖓𝖈𝖊𝖉 𝖆𝖓𝖙𝖎-𝖋𝖑𝖔𝖔𝖉 𝖘𝖞𝖘𝖙𝖊𝖒.
@@ -362,8 +362,8 @@ def shasa_about_callback(update, context):
              ❍ 𝕴 𝖍𝖆𝖛𝖊 𝖆 𝖓𝖔𝖙𝖊 𝖐𝖊𝖊𝖕𝖎𝖓𝖌 𝖘𝖞𝖘𝖙𝖊𝖒, 𝖇𝖑𝖆𝖈𝖐𝖑𝖎𝖘𝖙𝖘, 𝖆𝖓𝖉 𝖊𝖛𝖊𝖓 𝖕𝖗𝖊𝖉𝖊𝖙𝖊𝖗𝖒𝖎𝖓𝖊𝖉 𝖗𝖊𝖕𝖑𝖎𝖊𝖘 𝖔𝖓 𝖈𝖊𝖗𝖙𝖆𝖎𝖓 𝖐𝖊𝖞𝖜𝖔𝖗𝖉𝖘.
              ❍ 𝕴 𝖈𝖍𝖊𝖈𝖐 𝖋𝖔𝖗 𝖆𝖉𝖒𝖎𝖓𝖘' 𝖕𝖊𝖗𝖒𝖎𝖘𝖘𝖎𝖔𝖓𝖘 𝖇𝖊𝖋𝖔𝖗𝖊 𝖊𝖝𝖊𝖈𝖚𝖙𝖎𝖓𝖌 𝖆𝖓𝖞 𝖈𝖔𝖒𝖒𝖆𝖓𝖉 𝖆𝖓𝖉 𝖒𝖔𝖗𝖊 𝖘𝖙𝖚𝖋𝖋𝖘
                _𝖘𝖍𝖆𝖘𝖆'𝖘 𝖑𝖎𝖈𝖊𝖓𝖘𝖊𝖉 𝖚𝖓𝖉𝖊𝖗 𝖙𝖍𝖊 𝕲𝕹𝖀 𝕲𝖊𝖓𝖊𝖗𝖆𝖑 𝕻𝖚𝖇𝖑𝖎𝖈 𝕷𝖎𝖈𝖊𝖓𝖘𝖊 𝖛3.0_
-               𝕳𝖊𝖗𝖊 𝖎𝖘 𝖙𝖍𝖊 [💾𝕽𝖊𝖕𝖔𝖘𝖎𝖙𝖔𝖗𝖞](https://github.com/MdNoor786/Shasabot-1).
-               𝕴𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓 𝖆𝖇𝖔𝖚𝖙 𝖘𝖍𝖆𝖘𝖆, 𝖑𝖊𝖙 𝖚𝖘 𝖐𝖓𝖔𝖜 𝖆𝖙 [𝕾𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/MissShasa_Gbot).""",
+               𝕳𝖊𝖗𝖊 𝖎𝖘 𝖙𝖍𝖊 [💾𝕽𝖊𝖕𝖔𝖘𝖎𝖙𝖔𝖗𝖞](https://github.com/SUKHPAL443/MAMBAGROUPOT).
+               𝕴𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓 𝖆𝖇𝖔𝖚𝖙 𝖘𝖍𝖆𝖘𝖆, 𝖑𝖊𝖙 𝖚𝖘 𝖐𝖓𝖔𝖜 𝖆𝖙 [𝕾𝖚𝖕𝖕𝖔𝖗𝖙](https://t.me/MAMBAX_GBOT).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,8 +385,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *shasa*
-                 \nHere is the [Source Code](https://github.com/MdNoor786/ShasaBot-1) .""",
+            text=""" Hi..🤗 I'm *𝓜𝓐𝓜𝓑𝓐*
+                 \nHere is the [Source Code](https://github.com/SUKHPAL443/MAMBAGROUPBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -696,7 +696,7 @@ def main():
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
     about_callback_handler = CallbackQueryHandler(
-        shasa_about_callback, pattern=r"shasa_"
+        shasa_about_callback, pattern=r"mamba_"
     )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_"
